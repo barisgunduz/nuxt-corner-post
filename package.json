@@ -2,7 +2,7 @@
   "name": "kose-yazisi-uygulamasi",
   "version": "1.0.0",
   "description": "My kickass Nuxt.js project",
-  "author": "Gökhan Kandemir",
+  "author": "Barış Gündüz",
   "private": true,
   "scripts": {
     "dev": "nuxt",
