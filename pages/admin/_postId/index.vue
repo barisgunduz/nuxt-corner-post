@@ -1,14 +1,11 @@
 <template>
-    <PostForm :is-update="true" />
+  <PostForm :is-update="true"/>
 </template>
-
 <script>
-import PostForm from "@/components/admin/PostForm.vue";
-export default {
+  import PostForm from "@/components/admin/PostForm"
+  export default {
     components: {
-        PostForm,
-    },
-};
+      PostForm
+    }
+  }
 </script>
-
-<style></style>

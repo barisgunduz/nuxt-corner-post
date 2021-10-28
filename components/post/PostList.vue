@@ -9,12 +9,17 @@
             align-items-center
         "
     >
-        <Post v-for="index in 10" :key="index" :is-admin="isAdmin" />
+        <Post
+            :post="post"
+            v-for="post in posts"
+            :is-admin="isAdmin"
+            :key="post.id"
+        />
     </div>
 </template>
-
 <script>
 import Post from "@/components/post/Post";
+
 export default {
     components: {
         Post,
@@ -25,8 +30,10 @@ export default {
             required: false,
             default: false,
         },
+        posts: {
+            required: true,
+            type: Array,
+        },
     },
 };
 </script>
-
-<style></style>

@@ -5,11 +5,9 @@
         <nuxt />
     </div>
 </template>
-
 <script>
 import Header from "@/components/common/Header";
 import Banner from "@/components/common/Banner";
-
 export default {
     components: {
         Header,
@@ -17,5 +15,3 @@ export default {
     },
 };
 </script>
-
-<style></style>
